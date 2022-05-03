@@ -33,7 +33,7 @@ ul{
     padding: 0;
       /*row*/
   display: flex;
-  margin-left: 70%;
+  margin-left: 68%;
   }
 
   body{
@@ -59,57 +59,198 @@ ul{
   }
 
   .mountians{
-    margin-top: 10%;
+    margin-top: -35%;
     width: 100%;
   }
 
-  .lets{
-    margin-top: -43%;
-    margin-left: 7%;
-   width: 28%;
+  .lets_work{
+    margin-top: 8%;
+    margin-left: 8%;
+    width: 30%;
+  }
+
+  .submit{
+    margin-top: 23%;
+    margin-left: 55%;
+    width: 10%;
   }
 
 
-
-  /* a different version of the grid that is activated on devices 1200px or wider (most tablets and desktop devices*/
-@media only screen and (min-width: 1200px) {
+  /*test*/
  
-ul{
-  margin: 0;
-  padding: 0;
-    /*row*/
-display: flex;
-margin-left: 72%;
-}
-li{
-  list-style-type: none;
-  margin: 1.2vw;
-  font-size: 3vh;
-  margin-top: 6%;
+
+  body{
+    background-color: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .contact-box{
+    width: 0px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 11%;
+    left: 55%;
+    transform: translate(-50% -50%);
+    position: absolute;
+  }
+
+  .form{
+    margin: 35px;
+  }
+
+  .input-field{
+    width: 170px;
+    height: 15px;
+    margin-top: 2px;
+    padding-left: 3px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 0px;
+    outline: none;
+    font-size: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+.textarea-field{
+  height: 45px;
+  padding-top: 5px;
 }
 
-.logo-animate{
-  height:200%;
-  margin-left:.2%;
-  margin-top: -2.5%;
+.btn{
+  border-radius: 0px;
+  height: 1px;
+  width: 50px;
+  color: #fff;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: hsl(0, 97%, 54%);
+  opacity: 0%;
+  border: none;
+  cursor: pointer;
+
 }
-nav{
-  width: 100vw;
+  
+.titles{
+  font-size: 7px;
+  margin-top: 1.5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+ /* a different version of the grid that is activated on devices 1200px or wider (most tablets and desktop devices*/
+ @media only screen and (min-width: 1200px) {
+ 
+  ul{
+    margin: 0;
+    padding: 0;
+      /*row*/
+  display: flex;
+  margin-left: 72%;
+  }
+  li{
+    list-style-type: none;
+    margin: 1.2vw;
+    font-size: 3vh;
+    margin-top: 6%;
+  }
+  
+  .logo-animate{
+    height:200%;
+    margin-left:.2%;
+    margin-top: -2.5%;
+  }
+  nav{
+    width: 100vw;
+    height: 35px;
+    background-color: #000000;
+  }
+  
+  .name{
+    margin-left: 6%;
+    margin-top: -3.5%;
+  }
+  
+  .name-plate{
+    width: 20%;
+  }
+
+.mountians{
+  margin-top: -33%;
+  width: 100%;
+}
+
+.lets_work{
+  margin-top: 7%;
+  margin-left: 8%;
+  width: 27%;
+}
+
+.submit{
+  margin-top: 23%;
+  margin-left: 55%;
+  width: 10%;
+}
+/*test*/
+
+
+body{
+  background-color: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact-box{
+  width: 0px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 #999;
+  top: 25%;
+  left: 55%;
+  transform: translate(-50% -50%);
+  position: absolute;
+}
+
+.form{
+  margin: 35px;
+}
+
+.input-field{
+  width: 400px;
   height: 35px;
-  background-color: #000000;
+  margin-top: 6px;
+  padding-left: 5px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 0px;
+  outline: none;
+  font-size: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-.name{
-  margin-left: 6%;
-  margin-top: -3.5%;
+.textarea-field{
+height: 210px;
+padding-top: 5px;
 }
 
+.btn{
+border-radius: 0px;
+height: 10px;
+width: 145px;
+color: #fff;
+margin-top: 10px;
+padding: 10px;
+background-color: hsl(0, 97%, 54%);
+opacity: 0%;
+border: none;
+cursor: pointer;
 
-.name-plate{
-  width: 20%;
 }
 
+.titles{
+font-size: 15px;
+margin-top: 5px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
 } 

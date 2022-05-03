@@ -69,34 +69,12 @@ ul{
     "s b";
   }
 
-.vase-img{
+.yogurt-img{
     margin-top: 5%;
-    margin-left: 5%;
-    width: 90%;
+    margin-left: 50%;
+    width: 35%;
     grid-area: v;
   }
-
-.yogurt-img{
-  margin-top: 5%;
-  margin-left: 5%;
-  width: 80%;
-  grid-area: y;
-}
-
-.sushi-img{
-  margin-top: -30%;
-  margin-left: 5%;
-  width: 90%;
-  grid-area: s;
-}
-
-.bottles-img{
-  margin-top: 5%;
-  margin-left: 5%;
-  width: 80%;
-  grid-area: b;
-}
-
 
 
 
@@ -136,4 +114,12 @@ nav{
 .name-plate{
   width: 20%;
 }
+
+.yogurt-img{
+    margin-top: 5%;
+    margin-left: 67%;
+    width: 30%;
+    grid-area: v;
+  }
+
 } 
